@@ -1,14 +1,10 @@
-package com.example.demo.serivce;
+package com.example.demo.service;
 
-import com.example.demo.dto.TodoDTO;
 import com.example.demo.model.TodoEntity;
 import com.example.demo.persistence.TodoRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 import java.util.Optional;
